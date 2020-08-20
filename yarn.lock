@@ -41,11 +41,6 @@ balanced-match@^1.0.0:
   resolved "https://registry.yarnpkg.com/balanced-match/-/balanced-match-1.0.0.tgz#89b4d199ab2bee49de164ea02b89ce462d71b767"
   integrity sha1-ibTRmasr7kneFk6gK4nORi1xt2c=
 
-bisect_ppx@^2.1.0:
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/bisect_ppx/-/bisect_ppx-2.1.0.tgz#b1f9b0c125a104c41dc6aaddb8b0e112af618ae4"
-  integrity sha512-wFw+BwOExrX2MbtlNlHY5gNDw8Wsd+aL5ykRdN904aGLrVfuV6YUf1S0+X/4khA8GhibgqC7pLazW4/IvxgPIw==
-
 brace-expansion@^1.1.7:
   version "1.1.11"
   resolved "https://registry.yarnpkg.com/brace-expansion/-/brace-expansion-1.1.11.tgz#3c7fcbf529d87226f3d2f52b966ff5271eb441dd"
@@ -81,10 +76,8 @@ bs-mocha@^1.0.0:
   dependencies:
     mocha "^6.2.0"
 
-bs-platform@^7.2.2:
-  version "7.2.2"
-  resolved "https://registry.yarnpkg.com/bs-platform/-/bs-platform-7.2.2.tgz#76fdc63e4889458ae3d257a0132107a792f2309c"
-  integrity sha512-PWcFfN+jCTtT/rMaHDhKh+W9RUTpaRunmSF9vbLYcrJbpgCNW6aFKAY33u0P3mLxwuhshN3b4FxqGUBPj6exZQ==
+"bs-platform@file:../../../../../nix/store/lzfrmlflab90yz60rrnqcql5qz6n930h-bs-platform-7.3.1":
+  version "7.3.1"
 
 bs-stdlib-shims@^0.1.0:
   version "0.1.0"
