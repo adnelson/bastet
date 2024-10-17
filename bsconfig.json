@@ -1,5 +1,6 @@
 {
   "name": "bs-bastet",
+  "uncurried": false,
   "version": "1.2.5",
   "refmt": 3,
   "namespace": true,
@@ -24,15 +25,10 @@
     "in-source": false
   },
   "suffix": ".bs.js",
-  "bs-dependencies": [
-    "bisect_ppx"
-  ],
+  "bs-dependencies": [],
   "bs-dev-dependencies": [
     "bs-jsverify",
     "bs-mocha",
     "bs-chai"
-  ],
-  "ppx-flags": [
-    "bisect_ppx/ppx"
   ]
 }
